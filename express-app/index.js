@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-throw new Error("Test failure - intentional crash for rollback testing");
+
 app.get('/', (req, res) => {
   res.send('<h1>Check</h1>')
 })
