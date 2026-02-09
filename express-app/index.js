@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
-#throw new Error("Test failure - intentional crash for rollback testing");
+
 app.get('/', (req, res) => {
-  res.send('<h1>Test</h1>')
+  res.send('<h1>Check</h1>')
 })
 
 const PORT = 8080
